@@ -2,7 +2,9 @@
 
 ## Installation
 
-Install the package in R using `install_github('jtattersall09403/cauify')`.
+Install the package in R using `devtools::install_github('jtattersall09403/cauify')`.
+
+(Note - if you get an error here, you might need to install devtools first, with `install.packages("devtools")`).
 
 ## Usage
 
