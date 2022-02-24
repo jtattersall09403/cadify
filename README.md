@@ -17,6 +17,8 @@ Example:
 # Let's imagine we have a dataframe df with two columns in it (x and y) which we want to plot against each other. The data is in two groups: A and B.
 # First, let's generate some data that looks like that, for this example.
 
+library(dplyr)
+library(ggplot2)
 library(cauify)
 
 df <- tibble(x = 1:10, y = rnorm(10) * 1e5, group = c(rep("A", 5), rep("B", 5)))
