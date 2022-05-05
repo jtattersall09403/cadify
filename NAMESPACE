@@ -2,7 +2,7 @@
 
 export(add_colour)
 export(get_colours)
-export(theme_cau)
+export(theme_cad)
 import(colorspace)
 import(dplyr)
 import(ggplot2)

@@ -1,4 +1,4 @@
-Package: cauify
+Package: cadify
 Type: Package
 Title: Apply the CAU theme to ggplot2 chasrts
 Version: 0.1.0

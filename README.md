@@ -1,14 +1,14 @@
-# cauify: Apply CAU themes to your charts
+# cadify: Apply CAD themes to your charts
 
 ## Installation
 
-Install the package in R using `devtools::install_github('jtattersall09403/cauify')`.
+Install the package in R using `devtools::install_github('jtattersall09403/cadify')`.
 
 (Note - if you get an error here, you might need to install devtools first, with `install.packages("devtools")`).
 
 ## Usage
 
-The package contains one main function: `theme_cau()`. This will apply various simple tweaks to make your charts more accessible, readable, and visually impactful, as well as applying CAU colour schemes, fonts, and captions. 
+The package contains one main function: `theme_cad()`. This will apply various simple tweaks to make your charts more accessible, readable, and visually impactful, as well as applying CAD colour schemes, fonts, and captions. 
 
 Example:
 
@@ -19,7 +19,7 @@ Example:
 
 library(dplyr)
 library(ggplot2)
-library(cauify)
+library(cadify)
 
 df <- tibble(x = 1:10, y = rnorm(10) * 1e5, group = c(rep("A", 5), rep("B", 5)))
 
@@ -33,7 +33,7 @@ p <- df %>%
 p
 
 # And this to add the styling:
-p %>% theme_cau()
+p %>% theme_cad()
 
 
 ```

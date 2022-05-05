@@ -16,7 +16,7 @@
 #' @return A ggplot2 object, with styling applied. This can then be edited further by adding additional ggplot2 layers with `+` if needed.
 #' @export
 #'
-theme_cau <- function(p, discrete_cutoff = 9, source_text = "", background = TRUE) {
+theme_cad <- function(p, discrete_cutoff = 9, source_text = "", background = TRUE) {
 
   # ---- Basic theme ----
   font <- "Segoe UI"
