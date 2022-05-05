@@ -37,3 +37,11 @@ p %>% theme_cad()
 
 
 ```
+
+### Unstyled plot
+
+![Unstyled plot](www/unstyled_plot.png?raw=true)
+
+### Styled plot
+
+![Styled plot](www/styled_plot.png?raw=true)
