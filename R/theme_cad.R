@@ -80,10 +80,10 @@ theme_cad <- function(p, discrete_cutoff = 9, source_text = "", background = TRU
   # including source text if specified
   if(source_text == "") {
     p <- p +
-      labs(caption = c("Central Analysis Unit", ""))
+      labs(caption = c("Central Analysis Division", ""))
   } else {
     p <- p +
-      labs(caption = c("Central Analysis Unit", paste0("Source: ", source_text)))
+      labs(caption = c("Central Analysis Division", paste0("Source: ", source_text)))
   }
 
   # ---- Colour ----
